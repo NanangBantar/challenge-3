@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding : 0;
+    margin : 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #D3D3D3;
+}
+
+.container{
+    height: fit-content;
+    width: 80%;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 3px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.container .top-container{
+    display: flex;
+    padding: 10px;
+}
+
+.container .top-container .name-profile{
+    width: 100%;
+    margin: 5px 10px;
+    display: flex;
+}
+
+.container .top-container .name-profile div{
+    width: 100%;
+}
+
+.container .top-container .name-profile div i{
+    float: right;
+    margin: 10px 5px;
+}
+
+.container .top-container .name-profile div a{
+    text-decoration: none;
+}
+
+.container .top-container .name-profile div p{
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.container .top-container img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.container .text-container p{
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.container .image-container{
+    padding: 0px 10px;
+}
+
+.container .image-container img{
+    height: 500px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.container .status-container{
+    padding: 10px 10px;
+}
+
+.container .status-container i{
+    font-size: 20px;
+    margin: 0 5px 0 0;
+    color: #383838;
+}
+
+.container .status-container span{
+    font-size: 15px;
+    margin: 0 10px 0 0;
+}
+
+.container .comment-container{
+    background-color: #ededed;
+    height: fit-content;
+}
+
+.container .comment-container .text-container i{
+   font-size: 14px;
+   color: #949494;
+   margin: 5px;
+}
+
+.container .comment-container .comment-user-container{
+    padding: 0 10px;
+    display: flex;
+}
+
+.container .comment-container .comment-user-container div{
+    margin: 0 10px 0 0;
+}
+
+.container .comment-container .comment-user-container div:nth-child(2){
+    width: 100%;
+}
+
+.container .comment-container .comment-user-container div:nth-child(2) div{
+    margin: 10px 0 20px 0;
+}
+
+.container .comment-container .comment-user-container div:nth-child(2) p:nth-child(2){
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.container .comment-container .comment-user-container img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-comment{
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+    background-color: #006eff;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.btn-comment:hover{
+    background-color: #383838;
+    font-weight: bold;
+}
+
+
+
+
